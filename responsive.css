@@ -1,0 +1,27 @@
+
+
+/* -=- Mobile Device -=- */
+@media screen and (max-width: 400px){
+	.navbar, .navbar > ul, .banner-container{
+		flex-direction: column;
+		text-align: center;
+	}
+	.banner-content, .banner-img{
+		width: 100%;
+	}
+	.navbar li a{
+		background-color: slategray;
+		margin-bottom: 3px;
+		display: block;
+	}
+}
+@media screen and (min-width: 400px) and (max-width: 576px){
+	.navbar, .navbar > ul, .banner-container{
+		flex-direction: column;
+		text-align: center;
+	}
+	.banner-content, .banner-img{
+		width: 100%;
+	}
+}
+
