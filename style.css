@@ -29,6 +29,9 @@ img{
 	background-color: #E02C6D;
 	border: none;
 }
+.primary-btn i{
+	margin-left: 10px;
+}
 
 /* -=- Header -=- */
 .header{
@@ -80,4 +83,134 @@ img{
 }
 .banner-img{
 	width: 40%;
+}
+
+/*-=- Ads Styles -=-*/
+.ads{
+	padding: 50px 0;
+}
+.ads-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 4rem;
+	flex-wrap: wrap;
+	width: 1440px;
+	margin: 0 auto;
+}
+
+/* -=- Collection Styles -=- */
+.collection-container{
+	width: 1440px;
+	margin: 0 auto;
+}
+.collection-title{
+	text-align: center;
+	font-size: 1.75rem;
+	font-weight: 600;
+	line-height: 4rem;
+	margin-bottom: 1.75rem;
+}
+.collection-item{
+	display: grid;
+	grid-template-columns: repeat(3, 330px);
+	gap: 3.5rem;
+	justify-content: center;
+}
+.collection-box{
+	padding: 15px;
+}
+.collection-box h3{
+	color: #18191F;
+	font-size: 1.75rem;
+	font-weight: 500;
+	line-height: 2.5rem; /* 142.857% */
+}
+.collection-box span{
+	display: block;
+}
+.collection-box .taka{
+	color: rgba(0, 0, 0, 0.87);
+	font-family: Inter;
+	font-size: 1.5rem;
+	line-height: 150%; /* 36px */
+}
+.collection-box .collection-icon i{
+	color: #FB8200;
+}
+.collection-box p{
+	color: #787885;
+	font-family: Inter;
+	font-size: .9rem;
+	font-weight: 700;
+	line-height: 143%;
+	letter-spacing: 0.252px;
+}
+.collection-container .btn{
+	text-align: right;
+	width: calc(100% - 390px);
+    margin: 0 auto;
+}
+.collection-container .btn .primary-btn{
+	background-color: transparent;
+	color: rgba(224, 44, 109, 0.87);
+}
+
+/* -=-Featured Styles-=- */
+.featured{
+	padding: 50px 0;
+}
+.featured-container{
+	width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.featured-img{
+	width: 30%;
+}
+.featured-img img{
+	width: 100%;
+}
+.featured-content{
+	width: 50%;
+}
+.featured-content .featured-title{
+	color: #0A0826;
+	font-size: 2.4rem;
+	line-height: 3.8rem; /* 157.895% */
+	margin-bottom: 20px;
+}
+.featured-content .featured-description{
+	color: #6C6C6C;
+	font-weight: 700;
+	line-height: 1.8rem; /* 175% */
+	margin-bottom: 30px;
+}
+
+/* -=- Footer -=- */
+.footer{
+	background: #0A0826;
+	padding: 3rem 0;
+}
+.footer-container{
+	text-align: center;
+	color: #FFF;
+}
+.footer-container h4{
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+.footer-container p{
+	color: #D9DBE1;
+	font-family: 'Inter', sans-serif;
+	font-size: .8rem;
+	font-weight: 700;
+	line-height: 1.5rem; /* 171.429% */
+}
+.footer-icon i{
+	margin-right: 1rem;
+	font-size: 1.5rem;
+	margin-top: 1.4rem;
 }

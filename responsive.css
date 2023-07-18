@@ -2,20 +2,36 @@
 
 /* -=- Mobile Device -=- */
 @media screen and (max-width: 400px){
-	.navbar, .navbar > ul, .banner-container{
+	.navbar, .navbar > ul, .banner-container, .featured-container{
 		flex-direction: column;
 		text-align: center;
 	}
-	.banner-content, .banner-img{
+	.ads-container{
+		gap: 2rem;
+		width: 100%;
+	}
+	.banner-content, .banner-img, .collection-container, .featured-container, .featured-img, .featured-content{
 		width: 100%;
 	}
 	.navbar li a{
-		background-color: slategray;
+		background-color: lightgray;
 		margin-bottom: 3px;
 		display: block;
 	}
+	.collection-item{
+		grid-template-columns: 1fr;
+		gap: 2rem;
+	}
+	.collection-container .btn{
+		text-align: center;
+		width: 100%;
+	}
+	.featured-container{
+		padding: 20px;
+	}
+
 }
-@media screen and (min-width: 400px) and (max-width: 576px){
+@media screen and (min-width: 401px) and (max-width: 576px){
 	.navbar, .navbar > ul, .banner-container{
 		flex-direction: column;
 		text-align: center;
